@@ -90,7 +90,7 @@ func main() {
         rim_or_not = true
         index_a,  index_b = search(equation_list[0], true_numbers_rimpal), search(equation_list[2], true_numbers_rimpal)
         if index_a == -1 || index_b == -1{
-            fmt.Println("Дружочек введи цифры от 1 до 10 включительно. не сложно можно и римскими)")
+            fmt.Println("Дружочек введи цифры от 1 до 10 включительно, только римские или только арабские. не сложно)")
             return
         }
     }
